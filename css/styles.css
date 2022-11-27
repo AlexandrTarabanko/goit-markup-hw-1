@@ -72,7 +72,7 @@ body{
 }
 
 .main-nav-link:hover,
-.main-nav-link:hover{
+.main-nav-link:focus{
     color: var(--hover-color);
 }
 .current {
@@ -146,7 +146,6 @@ body{
 }
 .second-section-title{
         color: var(--headings-color);
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -160,7 +159,6 @@ body{
 }
 
 .third-section-title{
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -170,7 +168,7 @@ body{
 
 /* 4 */
 .fourth-section{
-    background-color: var(--fourth-section-background);
+    background-color: var(--fourth-section-list);
 }
 .fourth-section-list{
     background-color: var(--main-background);
@@ -263,7 +261,6 @@ body{
 }
 
 .variant-title{
-        font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
